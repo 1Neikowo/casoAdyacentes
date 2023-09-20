@@ -3,6 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 public class ProductoAdyacentes {
+    public static public static void main(String[] args) {
+
+    }
 
     public static List<Integer> generarLista() {
         Random rand = new Random();
