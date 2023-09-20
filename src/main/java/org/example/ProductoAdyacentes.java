@@ -26,7 +26,7 @@ public class ProductoAdyacentes {
         return maximo;
     }
 
-
-
-
+    public static void imprimirMaximo(int maximo){
+        System.out.println("El maximo producto adyacente es "maximo ".");
+    }
 }
