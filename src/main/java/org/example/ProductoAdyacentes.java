@@ -16,6 +16,16 @@ public class ProductoAdyacentes {
 
         return lista;
     }
+    public static int productoAdyacentes(int[] lista) {
+        int maximo = -1000000;
+        for (int i = 0; i < lista.length-1; i++) {
+            if (lista[i] * lista[i+1] > maximo) {
+                maximo = lista[i] * lista[i+1];
+            }
+        }
+        return maximo;
+    }
+
 
 
 
